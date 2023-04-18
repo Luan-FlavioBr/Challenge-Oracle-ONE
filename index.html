@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Desafio Alura</title>
+    <link rel="shortcut icon" href="imagens/Vector.svg" type="image/x-icon">
+</head>
+
+<body class="body-content">
+    <main class="main-content">
+        <div class="alinhar-logo">
+            <h1><img src="imagens/logoAlura.png" alt="" class="logo-alura"></h1>
+        </div>
+
+        <textarea name="colocarTexto" class="input-textarea" id="textarea" cols="30" rows="10" placeholder="Coloque seu texto aqui :)" ></textarea>
+
+        <div class="alert-container">
+            <p class="alert-paragrafo" id="alert"><img src="imagens/bi_exclamation-circle-fill.svg" class="icon-exclamation">Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div class="buttons-box">
+            <button class="codificarTexto" id="codificar">Codificar</button>
+            <button class="decodificarTexto" id="decodificar">Decodificar</button>
+        </div>
+    </main>
+    
+    <section class="section-content" id="mostra">
+        <img src="imagens/meninoLupa.png" class="section-img">
+        <p class="title-not-found">Nenhuma mensagem encontrada</p>
+        <p class="p-not-found">Digite um texto que você deseja criptografar ou descriptografar.</p>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
